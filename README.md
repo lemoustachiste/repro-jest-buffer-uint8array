@@ -20,11 +20,11 @@ script.
 4. (`npm run test:only-one`) # this runs only one test to show that it works with only one file
 5. (`npm run node:compare`) # this runs a node script to show that a Buffer should be an `instanceof` `Uint8Array`
 
-Typescript and ts-jest seem to have no effect whatsoever, but I'm leaving them in as they are part of my setup.
-
 jest.config.js does hold the `globals` object as presented as a solution in the above issue, and if it's removed tests fail.
 
 **Removing the `jsdom` `testEnvironment` option from jest.config.js removes the issue.**
+
+**Not using ts-jest as a transformer turns off the error, maybe? Inconsistent results with jest cache**
 
 # Expected behavior
 

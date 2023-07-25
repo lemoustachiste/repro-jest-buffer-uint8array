@@ -4,8 +4,8 @@
   "description": "",
   "main": "buffer.js",
   "scripts": {
-    "test": "jest",
-    "test:only-one": "jest --testRegex \"/*(buffer.test.js)\"",
+    "test": "jest --clearCache && jest",
+    "test:only-one": "jest --clearCache && jest --testRegex \"/*(buffer.test.js)\"",
     "node:compare": "node buffer.js"
   },
   "author": "",
