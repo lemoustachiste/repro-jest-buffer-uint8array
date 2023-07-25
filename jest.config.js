@@ -1,16 +1,11 @@
 module.exports = {
   modulePaths: [
-    '<rootDir>/src/',
-    '<rootDir>/node_modules',
-    '<rootDir>/dist'
+    '<rootDir>/src/'
   ],
   testEnvironment: 'jsdom',
   transform: {
     '^.+\\.((j|t)s)$': 'ts-jest'
   },
-  transformIgnorePatterns: [
-    'node_modules/(?!(@digitalbazaar|@blockcerts|base58-universal|base64url-universal|crypto-ld|ky-universal|node-fetch)/)'
-  ],
   globals: {
     Uint8Array: Uint8Array,
     ArrayBuffer: ArrayBuffer

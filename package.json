@@ -5,6 +5,7 @@
   "main": "buffer.js",
   "scripts": {
     "test": "jest",
+    "test:only-one": "jest --testRegex \"/*(buffer.test.js)\"",
     "node:compare": "node buffer.js"
   },
   "author": "",
@@ -15,12 +16,5 @@
     "jest-environment-jsdom": "^29.6.1",
     "ts-jest": "^29.1.1",
     "typescript": "^5.1.6"
-  },
-  "dependencies": {
-    "@blockcerts/schemas": "^3.4.2",
-    "@trust/keyto": "^1.0.1",
-    "bitcoinjs-lib": "^6.1.3",
-    "jsonld-signatures-merkleproof2019": "^2.2.2",
-    "secp256k1": "^5.0.0"
   }
 }

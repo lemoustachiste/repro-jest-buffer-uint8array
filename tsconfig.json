@@ -1,25 +1,6 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "checkJs": false,
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": false,
-    "target": "ESNext",
-    "lib": ["ESNext", "dom"],
-    "importsNotUsedAsValues": "error",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "moduleResolution": "node",
-    "baseUrl": "MerkleProof2019",
-    "module": "ESNext",
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "sourceMap": true,
-    "skipLibCheck": true
+    "allowJs": true
   },
-  "compileOnSave": false,
-  "exclude": [
-    "node_modules",
-    "tests"
-  ]
+  "compileOnSave": false
 }
